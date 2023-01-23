@@ -2,7 +2,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Happy)
 })
 input.onGesture(Gesture.FreeFall, function () {
-    basic.showString("oh no")
+    basic.clearScreen()
 })
 input.onGesture(Gesture.SixG, function () {
     basic.showString("ow")
@@ -31,4 +31,4 @@ input.onGesture(Gesture.LogoDown, function () {
         # # # # #
         `)
 })
-music.playMelody("C5 C E A E B C G ", 120)
+music.playMelody("C5 C E A E B C G ", 500)
