@@ -2,7 +2,7 @@ input.onGesture(Gesture.EightG, function () {
     basic.showString("ow")
 })
 input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Happy)
+    basic.showIcon(IconNames.Yes)
 })
 input.onGesture(Gesture.FreeFall, function () {
     basic.clearScreen()
