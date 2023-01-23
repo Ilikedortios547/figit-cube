@@ -1,11 +1,11 @@
+input.onGesture(Gesture.EightG, function () {
+    basic.showString("ow")
+})
 input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Happy)
 })
 input.onGesture(Gesture.FreeFall, function () {
     basic.clearScreen()
-})
-input.onGesture(Gesture.SixG, function () {
-    basic.showString("ow")
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showIcon(IconNames.Yes)
